@@ -1,1 +1,5 @@
 # Customer_Segments
+Developed a model for a company to group its cutomers which are similar to each other so that it can test a new service and decide which segment will like it. In this way they can introduce new delivery methods for the customers who are okay with the type of delivery and in this way the company can reduce its costs.
+For this I used unsupervised learning methods. I scaled the features so that all of them are in a particular range and to gain proper insights from the features. Then I applied PCA to reduce the dimensionality and use only those components which contribute the most to the variance.
+Then on the transformed data I applied K-Means clustering to group the customers into different clusters based on the features.
+The testing of any new service can be done by using A/B testing. The service can be started for few customers from each cluster or segment of customers and see which of them liked the service. The segment with the customers who are satisfied with the service can then be provided that service. In this way the company retains its customers and also reduces its costs.
